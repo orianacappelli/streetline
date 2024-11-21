@@ -1,0 +1,94 @@
+.productSingle {
+    max-width: 600px;
+    margin: 50px auto;
+
+  }
+  
+  .contenedorps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+    margin: 0 auto;
+  }
+  
+  .contimg img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+  }
+  
+  .continfo {
+    text-align: left;
+    background-color: #fff;
+    padding: 40px;
+  }
+  
+  .productTitle {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .productPrice {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .productColors {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    padding: 5px;
+  }
+  
+  .colorSwatch {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #333;
+  }
+  
+  .productSizes {
+    display: flex;
+    gap: 5px;
+    margin: 10px 0;
+  }
+  
+  .sizeBtn {
+    background-color: #f5f5f5;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .productActions {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .comprarBtn {
+    flex: 1;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #ff5100;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .probarBtn {
+    flex: 1;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .productDescription {
+    font-size: 14px;
+    color: #666;
+  }
+  

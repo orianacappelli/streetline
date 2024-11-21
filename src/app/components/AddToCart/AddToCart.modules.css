@@ -1,0 +1,9 @@
+.comprarBtn {
+    flex: 1;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #ff5100;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }

@@ -1,0 +1,42 @@
+.product-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #000; 
+    border: 2px solid #fff; 
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  
+  .outfit{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    padding: 20px 0 ;
+  }
+  
+  .product-item {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    background-color: rgba(196, 196, 196, 0.3);
+    
+    border: 2px solid #c4c4c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .product-item Link img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+   
+  }
+  
+  .product-item:hover img {
+    transform: scale(1.2);
+  }

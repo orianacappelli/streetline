@@ -29,7 +29,8 @@ import dbConnect from "@/app/database/dbConnect";
     await dbConnect();//asegura que la conexión con la base de datos está activa antes de realizar cualquier operación. 
     //Esto es importante porque MongoDB no siempre está conectado de forma predeterminada.
     try {
-      const products = await Product.find().sort({ name: "asc" });
+      const products = await Product.find();
+      
       return { products: JSON.parse(JSON.stringify(products)) };//Los resultados se devuelven como un objeto JSON
       //lo que convierte los objetos de Mongoose a objetos JavaScript simples.
     } catch (error) {

@@ -1,0 +1,30 @@
+.container-pl {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+  
+.articulos-pl {
+    margin: 20px 0px 0px 90px; 
+    font-size: 20px;
+    border-right: 2px solid #c6c6c6;
+    height: 1%;
+}
+
+.articulos-pl h2{
+    padding: 0px 90px 20px 0px;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.articulos-pl h2:hover{
+    font-weight:500;
+}
+  
+.productos-pl {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    
+}

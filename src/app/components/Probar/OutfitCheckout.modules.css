@@ -1,0 +1,11 @@
+.outfit-container {
+    display: grid;
+    justify-content: center; 
+    gap: 20px;
+    
+}
+
+.outfit-item {
+    align-items: center;
+    height: 170px;
+}

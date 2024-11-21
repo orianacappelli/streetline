@@ -1,0 +1,43 @@
+/* Footer container */
+.footer {
+    position: relative;
+    background-image: url('/images/imgs/footer.svg'); /* URL de la imagen de fondo */
+    background-repeat: no-repeat;
+    background-size:1800px 1000px; /* Hace que la imagen ocupe todo el ancho */
+    background-position: center; /* Centra la imagen */
+    background-color: black; /* Color de fondo de respaldo */
+    color: white;
+    text-align: center;
+    
+    padding: 170px 20px;
+    min-height: 600px; /* Ajusta la altura mínima del footer */
+  
+  }
+  
+  /* Content wrapper */
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  
+  /* Social media links */
+  .footer-social {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+  }
+  
+  .footer-social a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .footer-social a:hover {
+    color: #ddd; /* Cambia el color al pasar el cursor */
+  }

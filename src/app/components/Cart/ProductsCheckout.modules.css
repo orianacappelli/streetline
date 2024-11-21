@@ -1,0 +1,104 @@
+.carrito-container {
+    margin-top: 60px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    
+    background-color: #fff;
+  }
+  
+  .productos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .productos-table th,
+  .productos-table td {
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .productos-table th {
+    font-weight: bold;
+    border-bottom: 2px solid #000000;
+  }
+  .logo-header{
+    text-align: center; 
+    vertical-align: middle;   
+    padding: 10px;
+  }
+
+  .logo-header  img {
+    margin: 0 auto; 
+  }
+  
+  .producto-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  
+  .remove-btn {
+    margin-right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .remove-btn:hover {
+    color: #ff0000;
+  }
+  
+  .suma-container {
+    padding: 10px;
+   
+  }
+  
+  .suma-container h3 {
+    font-weight:600;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: black;
+  
+  }
+  
+  .suma-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .suma-info p{
+      font-size: 18px;
+      padding: 10px 0 0 0;
+      
+  }
+  .arriba {
+      border: none;
+      width: 100%;
+      border-top: 1px solid #000000;
+    }
+  .abajo{
+    border: none;
+    padding-top: 20px;
+    width: 100%;
+    border-bottom: 1px solid #000000;
+  }
+
+.cod-barra{
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100%;
+}

@@ -1,0 +1,42 @@
+.navbar {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  top:0;
+  left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+  }
+  
+.navbar-left ul{
+  display: flex;
+  gap: 20px;
+  font-weight: 400;
+}
+.navbar-left ul li:hover{
+  font-weight: 600;
+}
+  
+.navbar-center {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+   
+  /* Right side icons */
+.navbar-right {
+  display: flex;
+  gap: 20px;
+}
+.cart-container{
+  position: relative;
+}
+.navbar-icon {
+  position: absolute;
+  background-color: #ff9900;
+  color: white;
+  padding: 3px 6px;
+}
